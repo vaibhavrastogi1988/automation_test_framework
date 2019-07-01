@@ -1,4 +1,4 @@
-a# automation_test_framework
+# automation_test_framework
 TestNG based Selenium automation framework
 
 Steps to run tests via command line:

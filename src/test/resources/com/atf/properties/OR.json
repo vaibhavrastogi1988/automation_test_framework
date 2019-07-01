@@ -1,0 +1,43 @@
+{
+	"HOMEPAGE":{
+		"MY_ACCOUNT_XPATH":"//span[@class='c24-customer-hover c24-header-hover']",
+		"SIGNUP_XPATH":"//div[@class='c24-customer-layer c24-header-hover-layer']//A[@class='c24-meinkonto-reflink']",
+		"SEARCH_XPATH":"//input[@id='c24-search-header']",
+		"SEARCH_BUTTON_XPATH":"//div[@class='c24-search-button']",
+		"SEARCH_RESULT_XPATH":"//div[@class='result-item']",
+		"SIGNIN_XPATH": "//span[@id='c24-customer-salutation']//a[@class='c24-meinkonto-reflink']"
+		
+	},
+	"REGISTER_PAGE":{
+		"EMAIL_ID":"email",
+		"PASSWORD_ID":"password",
+		"RETYPE_password_ID":"passwordrepetition",
+		"REGISTER_XPATH":"//button[@name='register']",
+		"PASSWORD_ERROR_XPATH":"//input[@id='password']/following-sibling::div[@class='error-desc' and text()='Bitte geben Sie Ihr Passwort ein.']",
+		"PASSWORD_RETYPE_ERROR_XPATH":"//input[@id='passwordrepetition']/following-sibling::div[@class='error-desc' and text()='Bitte geben Sie Ihr Passwort ein.']",
+		"EMAIL_ERROR_XPATH":"//input[@id='email']/following-sibling::div[@class='error-desc' and text()='Bitte E-Mail-Adresse angeben.']",
+		"INCORRECT_EMAIL_ERROR_XPATH":"//input[@id='email']/following-sibling::div[@class='error-desc' and text()='Bitte geben Sie eine gültige E-Mail-Adresse an.']",
+		"INCORRECT_PASSWORD_LENGTH_ERROR_XPATH":"//input[@id='password']/following-sibling::div[@class='error-desc' and text()='Das Passwort sollte zwischen 6 und 50 Zeichen lang sein.']",
+		"INCORRECT_RETYPE_PASSWORD_LENGTH_ERROR_XPATH":"//input[@id='passwordrepetition']/following-sibling::div[@class='error-desc' and text()='Das Passwort sollte zwischen 6 und 50 Zeichen lang sein.']",
+		"PASSWORD_NOT_MATCH_ERROR_XPATH":"//input[@id='passwordrepetition']/following-sibling::div[@class='error-desc' and text()='Die Passwörter stimmen nicht überein.']",
+		"LINK_TERMS_AND_CONDITION_XPATH": "//div[@id='terms-update']//a[@title='Nutzungsbedingungen']",
+		"LINK_PRIVACY_POLICY_XPATH": "//div[@id='terms-update']//a[@title='Datenschutzhinweise']",
+		"TEXT_TERMSANDCONDITION_XPATH": "//div[@id='c24']//h1[text()='Nutzungsbedingungen des CHECK24 Kundenkontos']",
+		"TEXT_PRIVATE_POLICY_XPATH": "//div[@id='c24-page-content']//h1[text()='CHECK24 GmbH']",
+		"BUTTON_USER_EXISTS_OK_XPATH": "//button[contains(@class,'button-ok')]",
+		"PASSWORD_STRENGTH_XPATH":"//div[@class='wording']//span[@id='indicator-text']"
+	},
+	"LOGGED_IN_HOMEPAGE":{
+		"CLOSE_REGISTER_POP_UP_XPATH":"//section[@id='c24-dialog-points-modal']//button[@class='dialog-box-close button-cancel close']",
+		"LOGIN_SUCCESS_XPATH":"//div[@class='page-header-inner']//p",
+		"LOGOUT_XPATH":"//*[@id='c24-meinkonto']//a[@href='/user/logout.html']"
+	},
+	
+	"LOGIN_PAGE":{
+		"EMAIL_ID":"email",
+		"PASSWORD_ID":"password",
+		"LOGIN_XPATH": "//button[@name='login']"
+	}
+	
+	
+}
