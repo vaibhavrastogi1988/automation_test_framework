@@ -12,6 +12,7 @@ Steps to run tests via Eclipse:
 2. Import the project in Eclipse as a Existing Maven project
 3. Install all the dependencies present in pom.xml file
 4. Right click on the project, select Run As-> Maven test
+5. In order to run test from testng.xml, file is available at location (Automation_Test_Framework\src\test\resources\com\atf\runner). Right click the file-> Run As -> TestNg
 
 Structure of Automation Framework:
 1. Automation Framework is Maven based framework
